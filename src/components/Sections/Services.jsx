@@ -24,13 +24,13 @@ export default function Services() {
           <HeaderInfo>
             <h1 className="font40 extraBold">ABOUT US</h1>
             <p className="font13">
-            Welcome to Joe's Vault & Storage, your ultimate solution for all your storage and shipping needs. We are a team of professionals who are dedicated to providing secure, convenient, and affordable storage and shipping services to meet the unique needs of our customers.
+            Welcome to Southeast Vault & Storage, your ultimate solution for all your storage and shipping needs. We are a team of professionals who are dedicated to providing secure, convenient, and affordable storage and shipping services to meet the unique needs of our customers.
 
             Our state-of-the-art storage facilities are designed with the latest security features and climate control technology, ensuring that your valuables are safe and protected at all times.
 
             In addition to our storage solutions, we also offer shipping services for those who need to transport their belongings from one place to another. Our team of experts is knowledgeable and experienced in handling delicate and fragile items, so you can trust that your shipment will arrive at its destination in the same condition it was sent.
 
-            At Joe's Vault & Storage, customer satisfaction is our top priority. We understand the importance of protecting your valuables, and that's why we're committed to providing the best possible storage and shipping services. Whether you're storing a collection of vintage cars or shipping a fragile piece of artwork, we have the expertise and resources to get the job done right.
+            At Southeast Vault & Storage, customer satisfaction is our top priority. We understand the importance of protecting your valuables, and that's why we're committed to providing the best possible storage and shipping services. Whether you're storing a collection of vintage cars or shipping a fragile piece of artwork, we have the expertise and resources to get the job done right.
               <br />
               {/* labore et dolore magna aliquyam erat, sed diam voluptua. */}
             </p>
@@ -71,7 +71,7 @@ export default function Services() {
             <Advertising className="flexSpaceCenter">
               <AddLeft>
                 {/* <h4 className="font15 semiBold">A few words about company</h4> */}
-                <h2 className="font40 extraBold">At Joe's Vault & Storage, Securing Your Valuables is Our Priority</h2>
+                <h2 className="font40 extraBold">At Southeast Vault & Storage, Securing Your Valuables is Our Priority</h2>
                 {/* <p className="font12">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                   diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.

@@ -13,10 +13,10 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Joe's Vault & Storage: Protecting Your Valuables.</h1>
+          <h1 className="extraBold font60">We are Southeast Vault & Storage: Protecting Your Valuables.</h1>
           <HeaderP className="font13 semiBold">
-          Protect Your Valuables with Joe's Vault & Storage            
-          When it comes to storing your most valuable possessions, trust is key. At Joe's Vault & Storage, we offer a range of secure storage solutions, including deposit safe boxes, vaults, and air cargo services, to meet your unique needs. Our state-of-the-art facilities are equipped with high-security locks, climate control technology, fire and flood protection, and 24/7 monitoring, ensuring that your items are protected around the clock. Contact us today to learn more about how we can help you keep your valuables safe and secure.          </HeaderP>
+          Protect Your Valuables with Southeast Vault & Storage            
+          When it comes to storing your most valuable possessions, trust is key. At Southeast Vault & Storage, we offer a range of secure storage solutions, including deposit safe boxes, vaults, and air cargo services, to meet your unique needs. Our state-of-the-art facilities are equipped with high-security locks, climate control technology, fire and flood protection, and 24/7 monitoring, ensuring that your items are protected around the clock. Contact us today to learn more about how we can help you keep your valuables safe and secure.          </HeaderP>
           {/* <BtnWrapper>
             <FullButton to='contact' title="Get Started" />
           </BtnWrapper> */}
