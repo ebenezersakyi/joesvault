@@ -1,0 +1,9 @@
+.container__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.working__hours{
+    
+}
