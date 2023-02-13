@@ -83,7 +83,9 @@ export default function Services() {
                     </div>
                   </Link>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Vault Login" action={() => alert("clicked")} />
+                    <a href="/login">
+                      <FullButton title="Vault Login"  />
+                    </a>
                   </div>
                 </ButtonsRow>
               </AddLeft>

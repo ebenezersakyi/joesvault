@@ -8,6 +8,8 @@ import Backdrop from "../Elements/Backdrop";
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
+import Login from '../Login/Login'
+
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
   const [sidebarOpen, toggleSidebar] = useState(false);
@@ -18,6 +20,10 @@ export default function TopNavbar() {
       window.removeEventListener("scroll", () => setY(window.scrollY));
     };
   }, [y]);
+
+  const showLogin = () => {
+    window.location(Login);
+  }
 
 
   return (
@@ -74,7 +80,7 @@ export default function TopNavbar() {
               </a>
             </li> */}
             <li className="semiBold font15 pointer flexCenter">
-              <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+              <a  href="/login" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
                 Vault Login
               </a>
             </li>
