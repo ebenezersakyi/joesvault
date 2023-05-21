@@ -8,7 +8,7 @@ import Backdrop from "../Elements/Backdrop";
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
-import Login from '../Login/Login'
+import Login from "../Login/Login";
 
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
@@ -23,37 +23,66 @@ export default function TopNavbar() {
 
   const showLogin = () => {
     window.location(Login);
-  }
-
+  };
 
   return (
     <>
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
-      <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
+      <Wrapper
+        className="flexCenter animate whiteBg"
+        style={y > 100 ? { height: "60px" } : { height: "80px" }}
+      >
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
-            <LogoIcon />
+            {/* <LogoIcon /> */}
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              Southeast Vault
+              <span style={{ color: "#031d40" }}>SOUTH</span>
+              {/* SOUTH */}
+              <span style={{ color: "#d17a00" }}>EAST</span>{" "}
+              <span style={{ color: "black" }}>VAULT</span>
             </h1>
           </Link>
-          <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
+          <BurderWrapper
+            className="pointer"
+            onClick={() => toggleSidebar(!sidebarOpen)}
+          >
             <BurgerIcon />
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="home" spy={true} smooth={true} offset={-80}>
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
                 Home
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
                 About Us
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
                 Services
               </Link>
             </li>
@@ -68,7 +97,14 @@ export default function TopNavbar() {
               </Link>
             </li> */}
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
                 Contact
               </Link>
             </li>
@@ -80,7 +116,11 @@ export default function TopNavbar() {
               </a>
             </li> */}
             <li className="semiBold font15 pointer flexCenter">
-              <a  href="/login" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+              <a
+                href="/login"
+                className="radius8 lightBg"
+                style={{ padding: "10px 15px" }}
+              >
                 Vault Login
               </a>
             </li>
@@ -101,7 +141,7 @@ const Wrapper = styled.nav`
 const NavInner = styled.div`
   position: relative;
   height: 100%;
-`
+`;
 const BurderWrapper = styled.button`
   outline: none;
   border: 0px;
@@ -124,5 +164,3 @@ const UlWrapperRight = styled.ul`
     display: none;
   }
 `;
-
-
