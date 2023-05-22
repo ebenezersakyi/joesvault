@@ -40,7 +40,7 @@ export default function TopNavbar() {
               <span style={{ color: "#031d40" }}>SOUTH</span>
               {/* SOUTH */}
               <span style={{ color: "#d17a00" }}>EAST</span>{" "}
-              <span style={{ color: "black" }}>VAULT</span>
+              <span style={{ color: "black" }}>VAULTS</span>
             </h1>
           </Link>
           <BurderWrapper

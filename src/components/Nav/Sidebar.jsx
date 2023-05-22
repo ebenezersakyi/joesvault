@@ -10,12 +10,15 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
     <Wrapper className="animate darkBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
-          <LogoIcon />
+          {/* <LogoIcon /> */}
           <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
-            Southeast Vault
+            Southeast Vaults
           </h1>
         </div>
-        <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
+        <CloseBtn
+          onClick={() => toggleSidebar(!sidebarOpen)}
+          className="animate pointer"
+        >
           <CloseIcon />
         </CloseBtn>
       </SidebarHeader>
@@ -113,7 +116,11 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </a>
         </li> */}
         <li className="semiBold font15 pointer flexCenter">
-          <a href="/login" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+          <a
+            href="/login"
+            className="radius8 lightBg"
+            style={{ padding: "10px 15px" }}
+          >
             Vault Login
           </a>
         </li>
