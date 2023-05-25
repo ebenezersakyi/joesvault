@@ -1,0 +1,48 @@
+.container__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container__login >p{
+    color: rgb(90, 90, 90);
+    font-size: larger;
+    align-self: flex-start;
+    margin-left: 10%;
+}
+.container__login >h3{
+    color: rgb(90, 90, 90);
+    font-size: larger;
+    align-self: flex-start;
+    margin-left: 10%;
+    margin-bottom: 25px;
+}
+
+.container__login >a{
+    color: rgb(30, 98, 176);
+    font-size:x-large;
+    /* align-self: flex-start; */
+    /* margin-left: 10%; */
+    position: absolute;
+    top: 10vh;
+    left: 10%;
+}
+
+.text__input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login_buttn{
+    align-self: flex-start;
+    margin-left: 10%;
+}

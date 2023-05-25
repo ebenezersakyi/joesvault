@@ -124,6 +124,15 @@ export default function TopNavbar() {
                 Vault Login
               </a>
             </li>
+            <li className="semiBold font15 pointer flexCenter">
+              <a
+                href="/tracking"
+                className="radius8 lightBg"
+                style={{ padding: "10px 15px", marginLeft: 10 }}
+              >
+                Tracking
+              </a>
+            </li>
           </UlWrapperRight>
         </NavInner>
       </Wrapper>
