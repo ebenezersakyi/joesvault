@@ -34,7 +34,12 @@ export default function TopNavbar() {
         style={y > 100 ? { height: "60px" } : { height: "80px" }}
       >
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
+          <Link
+            style={{ display: "flex", flexDirection: "row" }}
+            className="pointer flexNullCenter"
+            to="home"
+            smooth={true}
+          >
             {/* <LogoIcon /> */}
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
               <span style={{ color: "#031d40" }}>SOUTH</span>

@@ -7,7 +7,7 @@ import styled from "styled-components";
 function TrackPackage() {
   return (
     <div className="container__login">
-      <a href="/">Back</a>
+      <a href="/">Home</a>
       <h3>Track your package</h3>
       <p>Enter your tracking number</p>
       <input
