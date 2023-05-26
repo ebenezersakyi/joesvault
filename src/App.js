@@ -6,6 +6,7 @@ import Landing from "./screens/Landing.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./components/Login/Login.jsx";
 import TrackPackage from "./components/TrackPackage/TrackPackage.jsx";
+import VaultDetailsPage from "./screens/VaultDetailsPage/VaultDetailsPage.jsx";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
           <Route exact path="/" element={<Landing />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/tracking" element={<TrackPackage />} />
+          <Route exact path="/details" element={<VaultDetailsPage />} />
         </Routes>
       </Router>
     </>
