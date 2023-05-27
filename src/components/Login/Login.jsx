@@ -78,6 +78,7 @@ const vaultNumbers = [
     weight: "102KG",
     purposeOfDeposit: "Safe Keeping",
     chargePerMonth: "$200",
+    unpaidCharges: "72 Months ($14,400)",
   },
 ];
 

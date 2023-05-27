@@ -57,7 +57,8 @@ function VaultDetailsPage() {
                 borderRadius: 7,
               }}
             >
-              {details && `Welcome ${details.nameOfDepositor.split(" ")[0]} `}
+              {/* {details && `Welcome ${details.nameOfDepositor.split(" ")[0]} `} */}
+              Welcome
             </i>
           </span>
           <span>
@@ -95,6 +96,10 @@ function VaultDetailsPage() {
           <span>
             <b>Charge Per Month: </b>
             {details && details.chargePerMonth}
+          </span>
+          <span>
+            <b>Unpaid Charges: </b>
+            {details && details.unpaidCharges}
           </span>
           {/* <span>
           <a
